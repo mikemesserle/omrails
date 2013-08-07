@@ -3,13 +3,12 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.12'
 gem 'jquery-rails'
 
-
 group :production do
 	gem 'pg'
 end
 
 group :development, :test do 
-gem 'sqlite3'
+	gem 'sqlite3'
 end 
 
 group :assets do
@@ -17,5 +16,3 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
   gem 'uglifier', '>= 1.0.3'
 end
-
-gem 'jquery-rails'
